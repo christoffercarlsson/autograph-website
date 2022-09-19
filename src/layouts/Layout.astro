@@ -1,0 +1,35 @@
+---
+export interface Props {
+  title: string
+}
+
+const { title } = Astro.props.frontmatter || Astro.props
+---
+
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width' />
+    <title>Autograph | {title}</title>
+    <link rel='stylesheet' href='/style.css?v=4' />
+  </head>
+  <body>
+    <header>
+      <div class='wrapper'>
+        <h1 class='logo'>
+          <a href='/'>Autograph</a>
+        </h1>
+        <nav>
+          <a href='/'>Start</a>
+          <a href='/overview'>Overview</a>
+          <a href='/docs'>Docs</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <article>
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>
