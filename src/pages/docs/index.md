@@ -17,4 +17,4 @@ secrecy.
 ## Software libraries
 
 - JavaScript -
-  [github.com/christoffercarlsson/stedy](https://github.com/christoffercarlsson/stedy/tree/main/src/autograph)
+  [github.com/christoffercarlsson/autograph](https://github.com/christoffercarlsson/autograph/tree/javascript)
