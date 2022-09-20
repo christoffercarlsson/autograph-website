@@ -3,7 +3,9 @@ export interface Props {
   title: string
 }
 
-const { title } = Astro.props.frontmatter || Astro.props
+const { title, url } = Astro.props.frontmatter || Astro.props
+const path = typeof url === 'string' ? url.replace(/\/+/g, ' ').trim().replace(' ', '-') : 'unknown'
+const pageClassName = path || 'start'
 ---
 
 <html lang='en'>
@@ -26,7 +28,7 @@ const { title } = Astro.props.frontmatter || Astro.props
         </nav>
       </div>
     </header>
-    <main>
+    <main class={pageClassName}>
       <article>
         <slot />
       </article>
