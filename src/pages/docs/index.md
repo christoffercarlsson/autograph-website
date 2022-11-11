@@ -16,5 +16,5 @@ secrecy.
 
 ## Software libraries
 
-- JavaScript -
-  [github.com/christoffercarlsson/autograph](https://github.com/christoffercarlsson/autograph/tree/javascript)
+- TypeScript -
+  [github.com/christoffercarlsson/autograph-typescript](https://github.com/christoffercarlsson/autograph-typescript)
