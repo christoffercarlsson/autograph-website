@@ -106,6 +106,11 @@ Alice authenticates with Bob using the certificate with Charlie's public key and
 signature. Bob can verify Alice's ownership without further contact with
 Charlie.
 
+## Software libraries
+
+- TypeScript -
+  [github.com/christoffercarlsson/autograph-typescript](https://github.com/christoffercarlsson/autograph-typescript)
+
 ## Learn more
 
 [Read the full specification &rarr;](/docs/specification)
