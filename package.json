@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "astro": "^1.6.11",
-    "marked": "^4.2.2"
+    "marked": "^4.2.3"
   },
   "devDependencies": {
     "@types/marked": "^4.0.7"
