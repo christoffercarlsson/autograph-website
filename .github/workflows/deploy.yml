@@ -2,7 +2,7 @@ name: Github Pages Astro CI
 
 on:
   push:
-    branches: [website]
+    branches: [main]
   workflow_call:
   workflow_dispatch:
 
@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
-        with:
-          ref: website
       - name: Install, build, and upload your site
         uses: withastro/action@v0
 
