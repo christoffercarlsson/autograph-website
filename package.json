@@ -9,7 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.8.0",
+    "astro": "^1.9.1",
     "marked": "^4.2.5"
   },
   "devDependencies": {
